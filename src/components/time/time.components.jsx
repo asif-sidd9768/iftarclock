@@ -6,7 +6,7 @@ import "./time.styles.scss"
 const Time = () => {
     const dt = new Date()
     const timeObj = {
-        hours: (dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()),
+        hours: ((dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) < 10? "0" + (dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) : dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()),
         minutes: dt.getMinutes(),
         seconds: dt.getSeconds()
     }
