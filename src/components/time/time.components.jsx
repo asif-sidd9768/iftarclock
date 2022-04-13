@@ -12,13 +12,13 @@ const Time = () => {
     }
     const [time, setTime] = useState(timeObj);
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setTime(getTime())
-    //         console.log("updated")
-    //     }, 1000)
-    //     return () => clearInterval(interval)
-    // },[])
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTime(getTime())
+            console.log("updated")
+        }, 1000)
+        return () => clearInterval(interval)
+    },[])
 
     return (
         <div>
