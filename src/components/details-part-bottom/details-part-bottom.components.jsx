@@ -11,9 +11,9 @@ const DetailsPartBottom = () => {
             </div>
             <div>
                 <h3 className="header-today">
-                    <span className="header-content-today">Iftar Timing</span>
+                    <span >Iftar Timing</span>
                 </h3>
-                <span>06:59</span>
+                <span className="header-content-today">06:59</span>
             </div>
             <div>   
                 <h3 className="header">
