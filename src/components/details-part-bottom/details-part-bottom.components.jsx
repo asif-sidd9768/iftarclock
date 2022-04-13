@@ -4,22 +4,22 @@ const DetailsPartBottom = () => {
     return (
         <div className="bottom-part">
             <div>
-                <h3>
+                <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span>04/04/1443</span>
+                <span className="header-content">04/04/1443</span>
             </div>
             <div>
-                <h3>
-                    <span>Iftar Timing</span>
+                <h3 className="header">
+                    <span className="header-content">Iftar Timing</span>
                 </h3>
                 <span>06:59</span>
             </div>
             <div>   
-                <h3>
-                    <span>Tomm Timing</span>
+                <h3 className="header">
+                    <span>Tomorrow Timing</span>
                 </h3> 
-                <span>07:00</span>
+                <span className="header-content">07:00</span>
             </div>
         </div>
     )
