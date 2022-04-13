@@ -10,8 +10,8 @@ const DetailsPartBottom = () => {
                 <span className="header-content">04/04/1443</span>
             </div>
             <div>
-                <h3 className="header">
-                    <span className="header-content">Iftar Timing</span>
+                <h3 className="header-today">
+                    <span className="header-content-today">Iftar Timing</span>
                 </h3>
                 <span>06:59</span>
             </div>
