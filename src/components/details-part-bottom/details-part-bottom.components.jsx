@@ -16,19 +16,19 @@ const DetailsPartBottom = () => {
                 <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span className="header-content">{hijriDate}</span>
+                <span className="header-content">abc</span>
             </div>
             <div>
                 <h3 className="header-today">
                     <span >Iftar Timing</span>
                 </h3>
-                <span className="header-content-today">{iftarTime}</span>
+                <span className="header-content-today">abc</span>
             </div>
             <div>   
                 <h3 className="header">
                     <span>Tomorrow Timing</span>
                 </h3> 
-                <span className="header-content">{tommTime}</span>
+                <span className="header-content">abc</span>
             </div>
         </div>
     )
