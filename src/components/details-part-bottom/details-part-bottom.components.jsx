@@ -1,4 +1,4 @@
-import { iftarTime } from "../../utils/extractDetails";
+import { iftarTime, hijriDate, tommTime } from "../../utils/extractDetails";
 
 import "./details-part-bottom.styles.scss"
 
@@ -11,7 +11,7 @@ const DetailsPartBottom = () => {
                 <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span className="header-content">abc</span>
+                <span className="header-content">{hijriDate}</span>
             </div>
             <div>
                 <h3 className="header-today">
@@ -23,7 +23,7 @@ const DetailsPartBottom = () => {
                 <h3 className="header">
                     <span>Tomorrow Timing</span>
                 </h3> 
-                <span className="header-content">abc</span>
+                <span className="header-content">{tommTime}</span>
             </div>
         </div>
     )
