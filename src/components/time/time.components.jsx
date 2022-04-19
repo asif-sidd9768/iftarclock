@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getTime } from "../../utils/time";
+import { getTime, getTimeLeft } from "../../utils/time";
 
 import "./time.styles.scss"
 
@@ -19,6 +19,7 @@ const Time = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setTime(getTime())
+            console.log(getTimeLeft().seconds)
             console.log("updated")
         }, 1000)
         return () => clearInterval(interval)
@@ -26,7 +27,11 @@ const Time = () => {
 
     return (
         <div>
-            <h1><span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span></h1>
+            <h1 className="time-container">
+                <span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span>
+                <br/>
+                <span className="time-left"><span className="iftar-in-text">Iftar in</span> - {`${getTimeLeft().hours} : ${getTimeLeft().minutes} : ${getTimeLeft().seconds}`}</span>
+            </h1>
         </div>
     )
 }

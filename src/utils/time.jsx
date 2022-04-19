@@ -8,6 +8,20 @@ export const getTime = () => {
     return timeObj;
 }
 
-export const getHour = () => {
 
+export const getTimeLeft = () => {
+    var d = new Date();
+    var d2 = new Date(2022, 3, 20, 19, 1,0,0);
+    var milSec = d2-d;
+    var d3 = new Date(milSec);
+    var nrHours = (Math.floor(d3/1000/60/60))%24;
+    var nrMin = (Math.floor(d3/1000/60))%60;
+    var nrSec = ((Math.floor(d3/1000))%60)+1;
+    const timeLeftObj =  {
+        hours: nrHours,
+        minutes: nrMin,
+        seconds: nrSec < 10 ? "0"+nrSec : nrSec
+    }
+
+    return timeLeftObj;
 }
