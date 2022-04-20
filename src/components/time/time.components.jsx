@@ -19,7 +19,6 @@ const Time = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setTime(getTime())
-            console.log(getTimeLeft().seconds)
             console.log("updated")
         }, 1000)
         return () => clearInterval(interval)
@@ -30,7 +29,20 @@ const Time = () => {
             <h1 className="time-container">
                 <span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span>
                 <br/>
-                <span className="time-left"><span className="iftar-in-text">Iftar in</span> - {`${getTimeLeft().hours} : ${getTimeLeft().minutes} : ${getTimeLeft().seconds}`}</span>
+                {
+                    getTimeLeft().seconds > 0 ? (
+                        <span className="time-left">
+                            <span className="iftar-in-text">
+                                Iftar in
+                            </span>
+                            <span className="time-left-counter">
+                                {`${getTimeLeft().hours} : ${getTimeLeft().minutes} : ${getTimeLeft().seconds}`}
+                            </span>
+                        </span>
+                    ) : (
+                        <span className="time-left"><span className="iftar-in-text">Start Iftar</span></span>
+                    )
+                }
             </h1>
         </div>
     )

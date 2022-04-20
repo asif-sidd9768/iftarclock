@@ -18,8 +18,8 @@ export const getTimeLeft = () => {
     var nrMin = (Math.floor(d3/1000/60))%60;
     var nrSec = ((Math.floor(d3/1000))%60)+1;
     const timeLeftObj =  {
-        hours: nrHours,
-        minutes: nrMin,
+        hours: nrHours < 10 ? "0"+nrHours : nrHours,
+        minutes: nrMin < 10 ? "0"+nrMin : nrMin,
         seconds: nrSec < 10 ? "0"+nrSec : nrSec
     }
 
