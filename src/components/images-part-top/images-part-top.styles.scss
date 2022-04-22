@@ -10,8 +10,31 @@
     }
 
     .kalima {
-        font-size: 48px;
+        font-size: 56px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         
+    }
+
+    .middle-text {
+        text-align: center;
+        padding: 0 50px;
+
+        .masala-text {
+            background-color: brown;
+            color: #ffc107;
+            padding: 0 10px;
+            border-radius: 10px;
+        }
+
+        .masala-content{
+            margin: 0 10px;
+            border-bottom: 1px solid #ffc107;
+            font-size: 25px;
+
+            .kufr-text {
+                font-size: 40px;
+                color: #ffc107;
+            }
+        }
     }
 }
