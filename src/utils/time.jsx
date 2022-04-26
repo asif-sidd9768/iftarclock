@@ -11,7 +11,7 @@ export const getTime = () => {
 
 export const getTimeLeft = () => {
     var d = new Date();
-    var d2 = new Date(2022, 3, 25, 19, 3,0,0);
+    var d2 = new Date(2022, 3, 26, 19, 3,0,0);
     var milSec = d2-d;
     var d3 = new Date(milSec);
     var nrHours = (Math.floor(d3/1000/60/60))%24;
