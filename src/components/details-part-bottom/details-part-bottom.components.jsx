@@ -11,13 +11,13 @@ const DetailsPartBottom = () => {
                 <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span className="header-content">27/09/1443</span>
+                <span className="header-content">28/09/1443</span>
             </div>
             <div>
                 <h3 className="header-today">
                     <span >Iftar Timing</span>
                 </h3>
-                <span className="header-content-today">7:04</span>
+                <span className="header-content-today">7:05</span>
             </div>
             <div>   
                 <h3 className="header">
