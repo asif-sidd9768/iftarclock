@@ -1,0 +1,26 @@
+.content-container {
+    text-align: center;
+
+    .moon-image {
+        width: 150px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .chand-mubarak-text {
+        font-size: 120px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+
+    .blessing-text {
+        font-size: 70px;
+        font-weight: lighter;
+        // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: pacifico;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+
+}

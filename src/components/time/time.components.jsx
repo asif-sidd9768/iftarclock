@@ -3,7 +3,7 @@ import { getTime, getTimeLeft } from "../../utils/time";
 
 import "./time.styles.scss"
 
-const Time = () => {
+const Time = (props) => {
     // const timeObj = {
     //     hours: ((dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) < 10? "0" + (dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) : dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()),
     //     minutes: dt.getMinutes(),

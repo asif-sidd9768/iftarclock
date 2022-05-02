@@ -1,10 +1,19 @@
 import Everything from "./components/everything/everything.component";
-
+import Eid from "./components/eid/eid.component";
+import { getTimeLeft } from "./utils/time";
 
 const App = () => {
 
   return (
-    <Everything />
+    <>
+      {
+        getTimeLeft().seconds > 0 ? (
+          <Everything />
+        ) : ( 
+          <Eid />
+        )
+      }
+    </>
   )
 }
 
