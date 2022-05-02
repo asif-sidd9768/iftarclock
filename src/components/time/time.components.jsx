@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getTime, getTimeLeft } from "../../utils/time";
+import Eid from "../eid/eid.component";
 
 import "./time.styles.scss"
 
@@ -41,6 +42,8 @@ const Time = (props) => {
                         </span>
                     ) : (
                         <span className="time-left"><span className="iftar-in-text">Start Iftar</span></span>
+                        // <Eid />
+
                     )
                 }
             </h1>
