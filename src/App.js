@@ -4,6 +4,7 @@ import { getTimeLeft } from "./utils/time";
 import {useState, useEffect} from "react";
 
 const App = () => {
+    const [timeLeft, setTimeLeft] = useState(false);
   return (
     <>
       <Everything />

@@ -28,10 +28,12 @@ const Time = (props) => {
     return (
         <div>
             <h1 className="time-container">
-                <span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span>
+                
                 <br/>
                 {
                     getTimeLeft().seconds > 0 ? (
+                        <>
+                        <span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span><br/>
                         <span className="time-left">
                             <span className="iftar-in-text">
                                 Iftar in
@@ -40,9 +42,15 @@ const Time = (props) => {
                                 {`${getTimeLeft().hours} : ${getTimeLeft().minutes} : ${getTimeLeft().seconds}`}
                             </span>
                         </span>
+                        </>
                     ) : (
-                        <span className="time-left"><span className="iftar-in-text">Start Iftar</span></span>
-                        // <Eid />
+                        <>
+                            <span className="time">
+                                Chand Mubarak
+                            </span>
+                            <span className="time-left"><span className="iftar-in-text">Start Iftar</span></span>
+                        </>
+                        
 
                     )
                 }

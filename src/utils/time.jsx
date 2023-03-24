@@ -1,3 +1,5 @@
+import { TIMINGS } from "./timetable";
+
 export const getTime = () => {
     const dt = new Date()
     const timeObj = {
@@ -8,10 +10,13 @@ export const getTime = () => {
     return timeObj;
 }
 
-
 export const getTimeLeft = () => {
-    var d = new Date();
-    var d2 = new Date(2022, 4, 2, 19, 5,0,0);
+    //const tt = TIMINGS[d.toLocaleDateString()]
+    // const tt = [2023,3,24,18,54,0,0]
+    // console.log('tttt ==== ', tt.timing)
+    const d = new Date();
+    const tt = TIMINGS[d.toLocaleDateString()]
+    var d2 = new Date(...tt.timing);
     var milSec = d2-d;
     var d3 = new Date(milSec);
     var nrHours = (Math.floor(d3/1000/60/60))%24;
@@ -22,6 +27,5 @@ export const getTimeLeft = () => {
         minutes: nrMin < 10 ? "0"+nrMin : nrMin,
         seconds: nrSec < 10 ? "0"+nrSec : nrSec
     }
-
     return timeLeftObj;
 }
