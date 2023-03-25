@@ -5,13 +5,18 @@ import "./details-part-bottom.styles.scss"
 
 const DetailsPartBottom = () => {
     const date = new Date()
+    const dt = moment()
+    const addLeadingZero = number => {
+      number = number - 1
+      return number < 10 ? "0"+number : number
+    }
     return (
         <div className="bottom-part">
             <div>
                 <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span className="header-content">{moment().format('iDD/iMM/iYYYY')}</span>
+                <span className="header-content">{addLeadingZero(dt.iDate())}/{dt.format('iMM')}/{dt.iYear()}</span>
             </div>
             <div>
                 <h3 className="header-today">
