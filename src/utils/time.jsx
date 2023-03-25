@@ -16,7 +16,8 @@ export const getTimeLeft = () => {
     // console.log('tttt ==== ', tt.timing)
     const d = new Date();
     const tt = TIMINGS[d.toLocaleDateString()]
-    var d2 = new Date(...tt.timing);
+    const timingsOfIftar = tt.timing
+    var d2 = new Date(...timingsOfIftar);
     var milSec = d2-d;
     var d3 = new Date(milSec);
     var nrHours = (Math.floor(d3/1000/60/60))%24;
