@@ -63,7 +63,8 @@ export const getTimeLeft = () => {
     // const tt = [2023,3,24,18,54,0,0]
     // console.log('tttt ==== ', tt.timing)
     const d = new Date();
-    const currentLocaleDate = d.toLocaleDateString() ?? d.toLocaleDateString()
+    const options = { month: '2-digit', day: '2-digit', year: 'numeric' }
+    const currentLocaleDate = d.toLocaleDateString('en-GB', options)
     const tt = timingOfIftar[currentLocaleDate]
     const timingsOfIftar = tt.timing
     var d2 = new Date(...timingsOfIftar);
@@ -77,5 +78,8 @@ export const getTimeLeft = () => {
         minutes: nrMin < 10 ? "0"+nrMin : nrMin,
         seconds: nrSec < 10 ? "0"+nrSec : nrSec
     }
+    console.log('====================================');
+    console.log(timeLeftObj);
+    console.log('====================================');
     return timeLeftObj;
 }

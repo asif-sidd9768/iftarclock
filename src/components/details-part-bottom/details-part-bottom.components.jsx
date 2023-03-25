@@ -4,7 +4,9 @@ import { TIMINGS } from "../../utils/timetable";
 import "./details-part-bottom.styles.scss"
 
 const DetailsPartBottom = () => {
-    const date = new Date()
+    const d = new Date()
+    const options = { month: '2-digit', day: '2-digit', year: 'numeric' }
+    const date = d.toLocaleDateString('en-GB', options)
     const dt = moment()
     const addLeadingZero = number => {
       number = number - 1
@@ -22,13 +24,13 @@ const DetailsPartBottom = () => {
                 <h3 className="header-today">
                     <span >Iftar Timing</span>
                 </h3>
-                <span className="header-content-today">{TIMINGS[date.toLocaleDateString()].todayTiming}</span>
+                <span className="header-content-today">{TIMINGS[date].todayTiming}</span>
             </div>
             <div>   
                 <h3 className="header">
                     <span>Tomorrow Timing</span>
                 </h3> 
-                <span className="header-content">{TIMINGS[date.toLocaleDateString()].tomorrowTiming}</span>
+                <span className="header-content">{TIMINGS[date].tomorrowTiming}</span>
             </div>
         </div>
     )
