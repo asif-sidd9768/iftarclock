@@ -3,7 +3,7 @@ import "./images-part-top.styles.scss"
 const ImagesPartTop = () => {
     return (
         <div className="container-top">
-            <img className="image" src="kaaba.png" />
+            <img className="image" src="kaaba.png" alt="imageofkaaba" />
             <h2 className="middle-text">
                 <span className="kalima">لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</span>
                 {/*<br/>
@@ -14,7 +14,7 @@ const ImagesPartTop = () => {
                     </span>
                 </span>*/}
             </h2>
-            <img className="image" src="prophets-mosque.png" />
+            <img className="image" src="prophets-mosque.png" alt="imageofmasjid"/>
         </div>
     )
 }

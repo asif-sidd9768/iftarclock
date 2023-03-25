@@ -1,5 +1,4 @@
 import ImagesPartTop from "../images-part-top/images-part-top.components";
-import Time from "../time/time.components";
 
 import "./eid.styles.scss"
 

@@ -78,8 +78,5 @@ export const getTimeLeft = () => {
         minutes: nrMin < 10 ? "0"+nrMin : nrMin,
         seconds: nrSec < 10 ? "0"+nrSec : nrSec
     }
-    console.log('====================================');
-    console.log(timeLeftObj);
-    console.log('====================================');
     return timeLeftObj;
 }

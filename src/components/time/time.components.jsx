@@ -1,15 +1,9 @@
 import { useState, useEffect } from "react";
 import { getTime, getTimeLeft } from "../../utils/time";
-import Eid from "../eid/eid.component";
 
 import "./time.styles.scss"
 
 const Time = (props) => {
-    // const timeObj = {
-    //     hours: ((dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) < 10? "0" + (dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()) : dt.getHours() > 12 ? dt.getHours() - 12 : dt.getHours()),
-    //     minutes: dt.getMinutes(),
-    //     seconds: dt.getSeconds()
-    // }
     const timeObj = {
         hours: "",
         minutes: "",
@@ -45,9 +39,7 @@ const Time = (props) => {
                         </>
                     ) : (
                         <>
-                            <span className="time">
-                                Chand Mubarak
-                            </span>
+                            <span className="time">{`${time.hours} : ${time.minutes} : ${time.seconds}`}</span><br/>
                             <span className="time-left"><span className="iftar-in-text">Start Iftar</span></span>
                         </>
                         
