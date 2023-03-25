@@ -15,7 +15,8 @@ export const getTimeLeft = () => {
     // const tt = [2023,3,24,18,54,0,0]
     // console.log('tttt ==== ', tt.timing)
     const d = new Date();
-    const tt = TIMINGS[d.toLocaleDateString()]
+    const currentLocaleDate = d.toLocaleDateString()
+    const tt = TIMINGS[currentLocaleDate]
     const timingsOfIftar = tt.timing
     var d2 = new Date(...timingsOfIftar);
     var milSec = d2-d;
