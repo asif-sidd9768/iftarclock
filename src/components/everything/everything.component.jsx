@@ -7,11 +7,11 @@ import "./everything.styles.scss"
 const Everything = () => {
     return (
         <div className="everything-container">
-            <ImagesPartTop />
+            <ImagesPartTop className="images-component" />
             <div>
-                <Time  />
+                <Time className="time-component" />
             </div>
-            <DetailsPartBottom />
+            <DetailsPartBottom className="details-component" />
         </div>
     )
 }
