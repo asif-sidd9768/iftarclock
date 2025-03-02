@@ -1,15 +1,15 @@
 export const TIMINGS = {
-  "12/03/2024": {
-      timing: [2024,2,12,18,50,0,0],
+  "02/03/2025": {
+      timing: [2025,2,2,18,51,0,0],
       rozaNumber: 1,
-      todayTiming: "06:50",
-      tomorrowTiming: "06:50"
+      todayTiming: "06:51",
+      tomorrowTiming: "06:51"
   },
-  "13/03/2024": {
-      timing: [2024,2,13,18,50,0,0],
+  "03/03/2025": {
+      timing: [2025,2,3,18,51,0,0],
       rozaNumber: 2,
-      todayTiming: "06:50",
-      tomorrowTiming: "06:50"
+      todayTiming: "06:51",
+      tomorrowTiming: "06:52"
   },
   "14/03/2024": {
       timing: [2024,2,14,18,50,0,0],
