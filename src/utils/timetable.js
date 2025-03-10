@@ -48,7 +48,7 @@ export const TIMINGS = {
       tomorrowTiming: "06:49"
   },
   "10/03/2025": {
-    timing: [2025,2,4,10,49,0,0],
+    timing: [2025,2,10,18,49,0,0],
     rozaNumber: 9,
     todayTiming: "06:49",
     tomorrowTiming: "06:49"
