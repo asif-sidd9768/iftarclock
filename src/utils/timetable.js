@@ -53,35 +53,35 @@ export const TIMINGS = {
     todayTiming: "06:49",
     tomorrowTiming: "06:49"
   },
-  "21/03/2024": {
-    timing: [2024,2,21,18,52,0,0],
+  "11/03/2025": {
+    timing: [2025,2,11,18,49,0,0],
     rozaNumber: 10,
-    todayTiming: "06:52",
-    tomorrowTiming: "06:52"
+    todayTiming: "06:49",
+    tomorrowTiming: "06:50"
   },
-  "22/03/2024": {
-    timing: [2024,2,22,18,52,0,0],
+  "12/03/2025": {
+    timing: [2025,2,12,18,50,0,0],
     rozaNumber: 11,
-    todayTiming: "06:52",
-    tomorrowTiming: "06:52"
+    todayTiming: "06:50",
+    tomorrowTiming: "06:50"
   },
-  "23/03/2024": {
-    timing: [2024,2,23,18,52,0,0],
-    rozaNumber: 11,
-    todayTiming: "06:52",
-    tomorrowTiming: "06:53"
-  },
-  "24/03/2024": {
-    timing: [2024,2,24,18,53,0,0],
+  "13/03/2025": {
+    timing: [2025,2,13,18,50,0,0],
     rozaNumber: 12,
-    todayTiming: "06:53",
-    tomorrowTiming: "06:53"
+    todayTiming: "06:50",
+    tomorrowTiming: "06:50"
   },
-  "25/03/2024": {
-    timing: [2024,2,25,18,53,0,0],
+  "14/03/2025": {
+    timing: [2025,2,14,18,50,0,0],
     rozaNumber: 13,
-    todayTiming: "06:53",
-    tomorrowTiming: "06:53"
+    todayTiming: "06:50",
+    tomorrowTiming: "06:50"
+  },
+  "15/03/2025": {
+    timing: [2025,2,15,18,50,0,0],
+    rozaNumber: 14,
+    todayTiming: "06:50",
+    tomorrowTiming: "06:51"
   },
   "26/03/2024": {
     timing: [2024,2,26,18,53,0,0],
