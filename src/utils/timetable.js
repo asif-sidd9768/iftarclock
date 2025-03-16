@@ -83,29 +83,29 @@ export const TIMINGS = {
     todayTiming: "06:50",
     tomorrowTiming: "06:51"
   },
-  "26/03/2024": {
-    timing: [2024,2,26,18,53,0,0],
-    rozaNumber: 14,
-    todayTiming: "06:53",
-    tomorrowTiming: "06:54"
-  },
-  "27/03/2024": {
-    timing: [2024,2,27,18,54,0,0],
+  "16/03/2025": {
+    timing: [2025,2,16,18,51,0,0],
     rozaNumber: 15,
-    todayTiming: "06:54",
-    tomorrowTiming: "06:54"
+    todayTiming: "06:51",
+    tomorrowTiming: "06:51"
   },
-  "28/03/2024": {
-    timing: [2024,2,28,18,54,0,0],
+  "17/03/2025": {
+    timing: [2025,2,17,18,51,0,0],
     rozaNumber: 16,
-    todayTiming: "06:54",
-    tomorrowTiming: "06:54"
+    todayTiming: "06:51",
+    tomorrowTiming: "06:51"
   },
-  "29/03/2024": {
-    timing: [2024,2,29,18,54,0,0],
+  "18/03/2025": {
+    timing: [2025,2,18,18,51,0,0],
     rozaNumber: 17,
-    todayTiming: "06:54",
-    tomorrowTiming: "06:55"
+    todayTiming: "06:51",
+    tomorrowTiming: "06:51"
+  },
+  "19/03/2025": {
+    timing: [2025,2,19,18,51,0,0],
+    rozaNumber: 18,
+    todayTiming: "06:51",
+    tomorrowTiming: "06:52"
   },
   "30/03/2024": {
     timing: [2024,2,30,18,55,0,0],
