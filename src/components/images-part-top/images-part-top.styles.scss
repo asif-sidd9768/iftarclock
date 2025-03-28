@@ -19,6 +19,16 @@
         text-align: center;
         padding: 0 50px;
 
+        .alvida {
+            font-size: 55px;
+            display: block;
+            margin-top: 12px;
+            background: #CF853B;
+background: linear-gradient(to right, #CF853B 0%, #CFCF07 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+        }
+
         .masala-text {
             background-color: brown;
             color: #ffc107;
