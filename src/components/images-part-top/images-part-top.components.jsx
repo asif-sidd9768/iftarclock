@@ -6,7 +6,7 @@ const ImagesPartTop = () => {
             <img className="image" src="kaaba.png" alt="imageofkaaba" />
             <h2 className="middle-text">
                 <span className="kalima">لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</span>
-                <span className="kalima">الوداع الوداع يا شهر رمضان</span>
+                <span className="alvida">الوداع الوداع يا شهر رمضان</span>
                 {/*<br/>
                 <span>
                     <span className="masala-text">Mas'Ala -</span> 
