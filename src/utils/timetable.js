@@ -161,11 +161,11 @@ export const TIMINGS = {
     todayTiming: "06:54",
     tomorrowTiming: "06:54"
   },
-  "08/04/2024": {
-    timing: [2024,3,8,18,56,0,0],
-    rozaNumber: 30,
-    todayTiming: "06:56",
-    tomorrowTiming: "06:57"
+  "29/03/2025": {
+    timing: [2025,2,29,18,54,0,0],
+    rozaNumber: 28,
+    todayTiming: "06:54",
+    tomorrowTiming: "06:55"
   },
   "09/04/2024": {
     timing: [2024,3,9,18,57,0,0],
