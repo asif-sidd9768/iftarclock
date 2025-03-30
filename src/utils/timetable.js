@@ -169,7 +169,7 @@ export const TIMINGS = {
   },
   "30/03/2025": {
     timing: [2025,2,30,18,55,0,0],
-    rozaNumber: 30,
+    rozaNumber: 29,
     todayTiming: "06:55",
     tomorrowTiming: "Might be Next Year"
   },
