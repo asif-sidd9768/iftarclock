@@ -18,7 +18,8 @@ const DetailsPartBottom = () => {
                 <h3 className="header">
                     <span>Today's date</span>
                 </h3>
-                <span className="header-content">{addLeadingZero(dt.iDate())}/{dt.format('iMM')}/{dt.iYear()}</span>
+{/*                 <span className="header-content">{addLeadingZero(dt.iDate())}/{dt.format('iMM')}/{dt.iYear()}</span> */}
+                <span className="header-content">29/10/1446</span>
             </div>
             <div>
                 <h3 className="header-today">
