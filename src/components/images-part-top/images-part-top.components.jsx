@@ -1,23 +1,22 @@
-import "./images-part-top.styles.scss"
+import "./images-part-top.styles.scss";
 
 const ImagesPartTop = () => {
-    return (
-        <div className="container-top">
-            <img className="image" src="kaaba.png" alt="imageofkaaba" />
-            <h2 className="middle-text">
-                <span className="kalima">لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</span>
-                <span className="alvida">الوداع الوداع يا شهر رمضان</span>
-                {/*<br/>
+	return (
+		<div className="container-top">
+			<img className="image" src="kaaba.png" alt="imageofkaaba" />
+			<h2 className="middle-text">
+				<span className="kalima">لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ</span>
+				{/*<br/>
                 <span>
                     <span className="masala-text">Mas'Ala -</span> 
                     <span className="masala-content">
                         
                     </span>
                 </span>*/}
-            </h2>
-            <img className="image" src="prophets-mosque.png" alt="imageofmasjid"/>
-        </div>
-    )
-}
+			</h2>
+			<img className="image" src="prophets-mosque.png" alt="imageofmasjid" />
+		</div>
+	);
+};
 
 export default ImagesPartTop;
